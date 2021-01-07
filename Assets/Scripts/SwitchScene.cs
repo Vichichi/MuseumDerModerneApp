@@ -77,4 +77,34 @@ public class SwitchScene : MonoBehaviour
         UnityEngine.Debug.Log("Die Gurken sind da");
         Application.LoadLevel(12);
     }
+
+    public void Zungenbaerte()
+    {
+        UnityEngine.Debug.Log("Hallo wir lecken dich ab!");
+        Application.LoadLevel(13);
+    }
+
+    public void Bestiarium()
+    {
+        UnityEngine.Debug.Log("Bestiarium bitch");
+        Application.LoadLevel(14);
+    }
+
+    public void AEIOU()
+    {
+        UnityEngine.Debug.Log("AEIOU yeeeeeeeeee");
+        Application.LoadLevel(15);
+    }
+    
+    public void MdmEingang()
+    {
+        UnityEngine.Debug.Log("Hier ist der Eingang");
+        Application.LoadLevel(16);
+    }
+
+    public void Drugs()
+    {
+        UnityEngine.Debug.Log("DRUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUGS");
+        Application.LoadLevel(17);
+    }
 }
