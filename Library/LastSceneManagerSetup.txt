@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Informationsmodus/02Infomodus.unity
+- path: Assets/Scenes/Informationsmodus/InfoMedaillen/12Gurken.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
