@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Informationsmodus/InfoMedaillen/12Gurken.unity
+- path: Assets/Scenes/Informationsmodus/InfoMedaillen/14Bestiarium.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

@@ -59,4 +59,22 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Informationsmodus/InfoMedaillen/17DrugsAndLiquer.unity
     guid: b069a405d3ece6648bcfc9e1310f0e60
+  - enabled: 1
+    path: Assets/Scenes/Informationsmodus/InfoMedaillen/18.unity
+    guid: bd1b2fc70ad733b4f8c1bcd5d1c1525f
+  - enabled: 1
+    path: Assets/Scenes/Informationsmodus/InfoMedaillen/19.unity
+    guid: ec92860aedbe8cc4498ca7316440f676
+  - enabled: 1
+    path: Assets/Scenes/Informationsmodus/InfoMedaillen/20.unity
+    guid: 4b3b9925011f92c41a50f9f5e86ef7e3
+  - enabled: 1
+    path: Assets/Scenes/21Impressum.unity
+    guid: 10e13e53dc5775f46a5c59aa62f19529
+  - enabled: 1
+    path: Assets/Scenes/22Hintergrundgedanke.unity
+    guid: d33f04274259d12498f7caeaf3ff2484
+  - enabled: 1
+    path: Assets/Scenes/23Datenschutz.unity
+    guid: 2650a442bf80d1246b8b5d03e01411af
   m_configObjects: {}

@@ -107,4 +107,22 @@ public class SwitchScene : MonoBehaviour
         UnityEngine.Debug.Log("DRUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUGS");
         Application.LoadLevel(17);
     }
+
+    public void Impressum()
+    {
+        UnityEngine.Debug.Log("Impressidididididididi");
+        Application.LoadLevel(21);
+    }
+
+    public void Hintergrund()
+    {
+        UnityEngine.Debug.Log("Hitnergrunfeoifucnwpiv");
+        Application.LoadLevel(22);
+    }
+
+    public void Datenschutz()
+    {
+        UnityEngine.Debug.Log("SCHUTZDICH");
+        Application.LoadLevel(23);
+    }
 }
