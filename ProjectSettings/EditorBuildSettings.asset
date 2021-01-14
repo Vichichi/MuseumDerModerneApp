@@ -69,12 +69,21 @@ EditorBuildSettings:
     path: Assets/Scenes/Informationsmodus/InfoMedaillen/20.unity
     guid: 4b3b9925011f92c41a50f9f5e86ef7e3
   - enabled: 1
-    path: Assets/Scenes/21Impressum.unity
-    guid: 10e13e53dc5775f46a5c59aa62f19529
+    path: Assets/Scenes/21Imprezive.unity
+    guid: 825a7896b49e54a4b86bea77781e34ee
   - enabled: 1
     path: Assets/Scenes/22Hintergrundgedanke.unity
     guid: d33f04274259d12498f7caeaf3ff2484
   - enabled: 1
     path: Assets/Scenes/23Datenschutz.unity
     guid: 2650a442bf80d1246b8b5d03e01411af
+  - enabled: 1
+    path: Assets/Scenes/24MdM.unity
+    guid: a69ad1b3111824447a4b84dad6f962c1
+  - enabled: 1
+    path: Assets/Scenes/Spielemodus/25Richtig.unity
+    guid: 3e858d6c5c5d6144cb193f351045a1c7
+  - enabled: 1
+    path: Assets/Scenes/Spielemodus/26Falsch.unity
+    guid: 832cdaa58c13ab047abb4ef2571780f7
   m_configObjects: {}

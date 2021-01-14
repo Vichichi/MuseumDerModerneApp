@@ -125,4 +125,22 @@ public class SwitchScene : MonoBehaviour
         UnityEngine.Debug.Log("SCHUTZDICH");
         Application.LoadLevel(23);
     }
+
+    public void MuseumDerModerne()
+    {
+        UnityEngine.Debug.Log("HIER INFOS UEBER PARTNER");
+        Application.LoadLevel(24);
+    }
+   
+    public void Richtig()
+    {
+        UnityEngine.Debug.Log("RICHTIG");
+        Application.LoadLevel(25);
+    }
+
+    public void Falsch()
+    {
+        UnityEngine.Debug.Log("FALSCH");
+        Application.LoadLevel(26);
+    }
 }
