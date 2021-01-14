@@ -64,6 +64,7 @@
     <Compile Include="Assets\Scripts\Scroll.cs" />
     <Compile Include="Assets\Scripts\Medaillenhalle\Rotate.cs" />
     <Compile Include="Assets\Scripts\SwipeDetector\SwipeDrawer.cs" />
+    <Compile Include="Assets\Scripts\GPS\GPS.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
