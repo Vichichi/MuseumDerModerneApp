@@ -383,7 +383,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2132409446}
         m_TargetAssemblyTypeName: SwitchScene, Assembly-CSharp
-        m_MethodName: Gurken
+        m_MethodName: Infomodus
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
