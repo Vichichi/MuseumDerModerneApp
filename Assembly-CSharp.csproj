@@ -62,9 +62,10 @@
     <Compile Include="Assets\Scripts\SwipeDetector\SwipeDetector.cs" />
     <Compile Include="Assets\Scripts\Medaillenhalle\Swipe.cs" />
     <Compile Include="Assets\Scripts\Scroll.cs" />
+    <Compile Include="Assets\Scripts\Medaillenhalle\ausblenden.cs" />
     <Compile Include="Assets\Scripts\Medaillenhalle\Rotate.cs" />
-    <Compile Include="Assets\Scripts\SwipeDetector\SwipeDrawer.cs" />
     <Compile Include="Assets\Scripts\GPS\GPS.cs" />
+    <Compile Include="Assets\Scripts\SwipeDetector\SwipeDrawer.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

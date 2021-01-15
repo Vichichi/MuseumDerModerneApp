@@ -108,6 +108,12 @@ public class SwitchScene : MonoBehaviour
         Application.LoadLevel(17);
     }
 
+    public void SchlafHaus()
+    {
+        UnityEngine.Debug.Log("Zzzzzzzzzz");
+        Application.LoadLevel(18);
+    }
+
     public void Impressum()
     {
         UnityEngine.Debug.Log("Impressidididididididi");
@@ -142,5 +148,47 @@ public class SwitchScene : MonoBehaviour
     {
         UnityEngine.Debug.Log("FALSCH");
         Application.LoadLevel(26);
+    }
+
+    public void MGurken()
+    {
+        UnityEngine.Debug.Log("MedaillenhalleGurki");
+        Application.LoadLevel(27);
+    }
+
+    public void MZungebaerte()
+    {
+        UnityEngine.Debug.Log("MedaillenhalleZungenbaerte");
+        Application.LoadLevel(28);
+    }
+
+    public void MBestiarium()
+    {
+        UnityEngine.Debug.Log("MedaillenhalleBestiarium");
+        Application.LoadLevel(29);
+    }
+
+    public void MAEIOU()
+    {
+        UnityEngine.Debug.Log("MedaillenhalleABC");
+        Application.LoadLevel(30);
+    }
+
+    public void MEingang()
+    {
+        UnityEngine.Debug.Log("MedaillenhalleEingangi");
+        Application.LoadLevel(31);
+    }
+
+    public void MDrugsAndLiquer()
+    {
+        UnityEngine.Debug.Log("MedaillenhalleDRUGS");
+        Application.LoadLevel(32);
+    }
+
+    public void MSchlafhaus()
+    {
+        UnityEngine.Debug.Log("MedaillenhalleZzzzzzzzzzzzz");
+        Application.LoadLevel(33);
     }
 }

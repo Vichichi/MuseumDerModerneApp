@@ -86,4 +86,25 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Spielemodus/26Falsch.unity
     guid: 832cdaa58c13ab047abb4ef2571780f7
+  - enabled: 1
+    path: Assets/Scenes/Spielemodus/MedaillenInfos/27MGurken.unity
+    guid: afc288cfa0953f0488de9ae529859d39
+  - enabled: 1
+    path: Assets/Scenes/Spielemodus/MedaillenInfos/28MZungenbaerte.unity
+    guid: 7801ded8a8f6a6e468c0866e029004f2
+  - enabled: 1
+    path: Assets/Scenes/Spielemodus/MedaillenInfos/29MBestiarium.unity
+    guid: fde7eea46f27fa9438f7429b077ef6ea
+  - enabled: 1
+    path: Assets/Scenes/Spielemodus/MedaillenInfos/30MAEIOU.unity
+    guid: 5902c463071b6de4c8a0adf55de6378b
+  - enabled: 1
+    path: Assets/Scenes/Spielemodus/MedaillenInfos/31MEingangMdM.unity
+    guid: 5c1742ad2092d104383a41c1c17914ce
+  - enabled: 1
+    path: Assets/Scenes/Spielemodus/MedaillenInfos/32MDrugsAndLiquer.unity
+    guid: a9dce4ad9b6d3c14ab65f6c230b344d4
+  - enabled: 1
+    path: Assets/Scenes/Spielemodus/MedaillenInfos/33MSchlafendeHaus.unity
+    guid: 741e3d5d56a56194eba0e94047b95ec6
   m_configObjects: {}
