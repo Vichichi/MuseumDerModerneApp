@@ -787,7 +787,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2067551560}
         m_TargetAssemblyTypeName: SwitchScene, Assembly-CSharp
-        m_MethodName: Minigames
+        m_MethodName: MinigamesInfos
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

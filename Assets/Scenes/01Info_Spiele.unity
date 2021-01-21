@@ -800,8 +800,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.03
-  m_Text: "Du erh\xE4ltst, sobald du den\nSpielmodus aus\xFCbst,\neinen Gutschein\nf\xFCr
-    ein GRATIS\nWEINGLAS."
+  m_Text: "Du erh\xE4ltst, sobald du den\nSpielmodus aus\xFCbst und alle Kunstwerke
+    gesammelt hast,\n(einen Gutschein\nf\xFCr ein GRATIS\nWEINGLAS.)"
 --- !u!222 &349808462
 CanvasRenderer:
   m_ObjectHideFlags: 0

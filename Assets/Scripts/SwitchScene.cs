@@ -191,4 +191,10 @@ public class SwitchScene : MonoBehaviour
         UnityEngine.Debug.Log("MedaillenhalleZzzzzzzzzzzzz");
         Application.LoadLevel(33);
     }
+
+    public void MinigamesInfos()
+    {
+        UnityEngine.Debug.Log("Minigames INFOS");
+        Application.LoadLevel(36);
+    }
 }

@@ -501,36 +501,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &167581006
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 167581007}
-  m_Layer: 0
-  m_Name: Ausblendung
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &167581007
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 167581006}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 700.1465, y: 1025.367, z: 7.441711}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 12
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &222740511
 GameObject:
   m_ObjectHideFlags: 0
@@ -3459,7 +3429,7 @@ GameObject:
   - component: {fileID: 1678922725}
   - component: {fileID: 1678922724}
   m_Layer: 5
-  m_Name: 1InformationCanvas
+  m_Name: InformationCanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4239,7 +4209,7 @@ GameObject:
   - component: {fileID: 3093326840261002460}
   m_Layer: 0
   m_Name: med1
-  m_TagString: Untagged
+  m_TagString: Gurken
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4375,7 +4345,7 @@ GameObject:
   - component: {fileID: 3903926568070274903}
   m_Layer: 0
   m_Name: med2
-  m_TagString: Untagged
+  m_TagString: Bestiarium
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4703,6 +4673,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4644864246058339833}
   - component: {fileID: 5421788320898750276}
+  - component: {fileID: 5421788320898750277}
   m_Layer: 0
   m_Name: med8
   m_TagString: Untagged
@@ -4725,6 +4696,19 @@ MonoBehaviour:
   Rotation_Speed: 2
   Rotation_Friction: 1
   Rotation_Smoothness: 2
+--- !u!65 &5421788320898750277
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5421788320898750275}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &5446863577267334023
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -5160,6 +5144,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7421790578845731265}
   - component: {fileID: 7905136317938307964}
+  - component: {fileID: 7905136317938307965}
   m_Layer: 0
   m_Name: med9
   m_TagString: Untagged
@@ -5182,6 +5167,19 @@ MonoBehaviour:
   Rotation_Speed: 2
   Rotation_Friction: 1
   Rotation_Smoothness: 2
+--- !u!65 &7905136317938307965
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7905136317938307963}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &7911574939891970292
 GameObject:
   m_ObjectHideFlags: 0

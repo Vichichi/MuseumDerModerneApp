@@ -107,4 +107,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Spielemodus/MedaillenInfos/33MSchlafendeHaus.unity
     guid: 741e3d5d56a56194eba0e94047b95ec6
+  - enabled: 1
+    path: Assets/Scenes/Spielemodus/MedaillenInfos/34.unity
+    guid: 452980c558948d94196b4790f4a3b7f6
+  - enabled: 1
+    path: Assets/Scenes/Spielemodus/MedaillenInfos/35.unity
+    guid: 33e814176bf78044b888b6133849abad
+  - enabled: 1
+    path: Assets/Scenes/Informationsmodus/36MinigameInfos.unity
+    guid: 31b3e3fc705439643b6553db4ab7909f
+  - enabled: 1
+    path: Assets/Scenes/Informationsmodus/37RICHTIGINFO.unity
+    guid: 9fa3061249cc2e04f85b40dd573610b1
+  - enabled: 1
+    path: Assets/Scenes/Informationsmodus/38FALSCHINFOS.unity
+    guid: 095a42458a9a74a4cbe44ee6066d377a
   m_configObjects: {}
