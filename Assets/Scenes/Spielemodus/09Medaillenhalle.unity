@@ -383,7 +383,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &151975501
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2989,6 +2989,56 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1294150368}
   m_CullTransparentMesh: 0
+--- !u!1 &1455420202
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1455420204}
+  - component: {fileID: 1455420203}
+  m_Layer: 0
+  m_Name: Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1455420203
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1455420202}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43997510693871a4f8bd5358167660b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  popUpReminder: {fileID: 1511225603}
+  popUpReminder2: {fileID: 593593602}
+  popUpReminder3: {fileID: 433970100}
+  popUpReminder4: {fileID: 58593384}
+  popUpReminder5: {fileID: 96339713}
+  popUpReminder6: {fileID: 1467822460}
+  popUpReminder7: {fileID: 1190547110}
+--- !u!4 &1455420204
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1455420202}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 555.13007, y: 1073.8313, z: -5.8497314}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1467822458
 GameObject:
   m_ObjectHideFlags: 0
@@ -4093,10 +4143,9 @@ GameObject:
   - component: {fileID: 1385754554957272372}
   - component: {fileID: 1761154571162079119}
   - component: {fileID: 1761154571162079120}
-  - component: {fileID: 1761154571162079121}
   m_Layer: 0
   m_Name: med3
-  m_TagString: Untagged
+  m_TagString: AEIOU
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4129,20 +4178,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.0748436, y: 3.3161128, z: 1}
   m_Center: {x: 0.009756897, y: 0.06352234, z: 0.0000000023262252}
---- !u!114 &1761154571162079121
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1761154571162079118}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 43997510693871a4f8bd5358167660b0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  popUpReminder: {fileID: 433970100}
-  smoothFactor: 5
 --- !u!4 &2424736446997864035
 Transform:
   m_ObjectHideFlags: 0
@@ -4206,7 +4241,6 @@ GameObject:
   - component: {fileID: 2424736446997864035}
   - component: {fileID: 3093326840261002458}
   - component: {fileID: 3093326840261002459}
-  - component: {fileID: 3093326840261002460}
   m_Layer: 0
   m_Name: med1
   m_TagString: Gurken
@@ -4242,20 +4276,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.9407539, y: 3.2298808, z: 0.8926173}
   m_Center: {x: -0.0000003401062, y: 0.25257128, z: 0.71539754}
---- !u!114 &3093326840261002460
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3093326840261002457}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 43997510693871a4f8bd5358167660b0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  popUpReminder: {fileID: 1511225603}
-  smoothFactor: 5
 --- !u!33 &3150445451331732972
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -4342,7 +4362,6 @@ GameObject:
   - component: {fileID: 4424320625740973550}
   - component: {fileID: 3903926568070274901}
   - component: {fileID: 3903926568070274902}
-  - component: {fileID: 3903926568070274903}
   m_Layer: 0
   m_Name: med2
   m_TagString: Bestiarium
@@ -4378,20 +4397,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3.5730243, y: 3.1132793, z: 1}
   m_Center: {x: 0.031118786, y: -0.34810215, z: 0.0000000074192963}
---- !u!114 &3903926568070274903
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3903926568070274900}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 43997510693871a4f8bd5358167660b0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  popUpReminder: {fileID: 593593602}
-  smoothFactor: 5
 --- !u!1 &3908589771322874983
 GameObject:
   m_ObjectHideFlags: 0
@@ -4800,10 +4805,9 @@ GameObject:
   - component: {fileID: 6716856589542907355}
   - component: {fileID: 6232069115822081890}
   - component: {fileID: 6232069115822081892}
-  - component: {fileID: 6232069115822081891}
   m_Layer: 0
   m_Name: med4
-  m_TagString: Untagged
+  m_TagString: Zungebaerte
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4823,20 +4827,6 @@ MonoBehaviour:
   Rotation_Speed: 2
   Rotation_Friction: 1
   Rotation_Smoothness: 2
---- !u!114 &6232069115822081891
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6232069115822081889}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 43997510693871a4f8bd5358167660b0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  popUpReminder: {fileID: 58593384}
-  smoothFactor: 5
 --- !u!65 &6232069115822081892
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5191,10 +5181,9 @@ GameObject:
   - component: {fileID: 7386008740284394062}
   - component: {fileID: 7911574939891970293}
   - component: {fileID: 7911574939891970295}
-  - component: {fileID: 7911574939891970294}
   m_Layer: 0
   m_Name: med6
-  m_TagString: Untagged
+  m_TagString: Drugs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5214,20 +5203,6 @@ MonoBehaviour:
   Rotation_Speed: 2
   Rotation_Friction: 1
   Rotation_Smoothness: 2
---- !u!114 &7911574939891970294
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7911574939891970292}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 43997510693871a4f8bd5358167660b0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  popUpReminder: {fileID: 1467822460}
-  smoothFactor: 5
 --- !u!65 &7911574939891970295
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5252,10 +5227,9 @@ GameObject:
   - component: {fileID: 7311383494362237999}
   - component: {fileID: 7943382311577179798}
   - component: {fileID: 7943382311577179800}
-  - component: {fileID: 7943382311577179799}
   m_Layer: 0
   m_Name: med5
-  m_TagString: Untagged
+  m_TagString: EingangMdM
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5275,20 +5249,6 @@ MonoBehaviour:
   Rotation_Speed: 2
   Rotation_Friction: 1
   Rotation_Smoothness: 2
---- !u!114 &7943382311577179799
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7943382311577179797}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 43997510693871a4f8bd5358167660b0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  popUpReminder: {fileID: 96339713}
-  smoothFactor: 5
 --- !u!65 &7943382311577179800
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5443,10 +5403,9 @@ GameObject:
   - component: {fileID: 9034849336242349233}
   - component: {fileID: 8514595191428382220}
   - component: {fileID: 8514595191428382222}
-  - component: {fileID: 8514595191428382221}
   m_Layer: 0
   m_Name: med7
-  m_TagString: Untagged
+  m_TagString: Haus
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5466,20 +5425,6 @@ MonoBehaviour:
   Rotation_Speed: 2
   Rotation_Friction: 1
   Rotation_Smoothness: 2
---- !u!114 &8514595191428382221
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8514595191428382219}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 43997510693871a4f8bd5358167660b0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  popUpReminder: {fileID: 1190547110}
-  smoothFactor: 5
 --- !u!65 &8514595191428382222
 BoxCollider:
   m_ObjectHideFlags: 0
