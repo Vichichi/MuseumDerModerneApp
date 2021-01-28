@@ -84,7 +84,7 @@ public class ClickFunction : MonoBehaviour
                 popUpReminderTransform7.anchoredPosition = new Vector3(0.38516f, -1103.399f, 0f);
             }
 
-              if (Physics.Raycast(ray, out hit) && hit.transform.tag == "Zungenbaerte")
+              if (Physics.Raycast(ray, out hit) && hit.transform.tag == "Zungebaerte")
             {
                 popUpReminderTransform4.anchoredPosition = new Vector3(0.38516f, -815.93f, 0f);
 
