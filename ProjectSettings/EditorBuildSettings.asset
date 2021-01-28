@@ -116,10 +116,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Informationsmodus/36MinigameInfos.unity
     guid: 31b3e3fc705439643b6553db4ab7909f
-  - enabled: 1
-    path: Assets/Scenes/Informationsmodus/37RICHTIGINFO.unity
-    guid: 9fa3061249cc2e04f85b40dd573610b1
-  - enabled: 1
-    path: Assets/Scenes/Informationsmodus/38FALSCHINFOS.unity
-    guid: 095a42458a9a74a4cbe44ee6066d377a
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   m_configObjects: {}
