@@ -290,8 +290,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.36514, y: 0.000045776}
-  m_SizeDelta: {x: 1080.7302, y: 788.97424}
+  m_AnchoredPosition: {x: -0.000012159, y: -0.000012398}
+  m_SizeDelta: {x: 1108.5061, y: 809.25134}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &213326228
 MonoBehaviour:
@@ -1603,7 +1603,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -2.4733887, y: 19.265991}
+  m_AnchoredPosition: {x: 0, y: 0.00020623}
   m_SizeDelta: {x: 1080, y: 1920}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1314378232
@@ -1775,11 +1775,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 030bd6a9b0ff1f942949e580e4212736, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Background: {fileID: 0}
-  BackgroundOpen: {fileID: 0}
-  Textfeld: {fileID: 0}
-  ButtonOpen: {fileID: 0}
-  ButtonClose: {fileID: 0}
+  Background: {fileID: 987613664}
+  BackgroundOpen: {fileID: 1314378230}
+  Textfeld: {fileID: 1985754668}
+  ButtonOpen: {fileID: 342052805}
+  ButtonClose: {fileID: 855966333}
 --- !u!1 &1427800598
 GameObject:
   m_ObjectHideFlags: 0

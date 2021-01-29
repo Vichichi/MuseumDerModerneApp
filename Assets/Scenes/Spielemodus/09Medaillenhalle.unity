@@ -3018,13 +3018,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43997510693871a4f8bd5358167660b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  popUpReminder: {fileID: 1511225603}
-  popUpReminder2: {fileID: 593593602}
-  popUpReminder3: {fileID: 433970100}
-  popUpReminder4: {fileID: 58593384}
-  popUpReminder5: {fileID: 96339713}
-  popUpReminder6: {fileID: 1467822460}
-  popUpReminder7: {fileID: 1190547110}
+  popUpReminderTransform: {fileID: 1511225602}
+  popUpReminderTransform2: {fileID: 593593601}
+  popUpReminderTransform3: {fileID: 433970099}
+  popUpReminderTransform4: {fileID: 58593383}
+  popUpReminderTransform5: {fileID: 96339712}
+  popUpReminderTransform6: {fileID: 1467822459}
+  popUpReminderTransform7: {fileID: 1190547109}
 --- !u!4 &1455420204
 Transform:
   m_ObjectHideFlags: 0

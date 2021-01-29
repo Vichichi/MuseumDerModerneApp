@@ -6,10 +6,10 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/00IntroScene.unity
+    path: Assets/Scenes/MainScreen/00IntroScene.unity
     guid: c4f5408f94e37a540960ad6111d7bbb4
   - enabled: 1
-    path: Assets/Scenes/01Info_Spiele.unity
+    path: Assets/Scenes/MainScreen/01Info_Spiele.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
     path: Assets/Scenes/Informationsmodus/02Infomodus.unity
@@ -69,16 +69,16 @@ EditorBuildSettings:
     path: Assets/Scenes/Informationsmodus/InfoMedaillen/20.unity
     guid: 4b3b9925011f92c41a50f9f5e86ef7e3
   - enabled: 1
-    path: Assets/Scenes/21Imprezive.unity
+    path: Assets/Scenes/MainScreen/21Imprezive.unity
     guid: 825a7896b49e54a4b86bea77781e34ee
   - enabled: 1
-    path: Assets/Scenes/22Hintergrundgedanke.unity
+    path: Assets/Scenes/MainScreen/22Hintergrundgedanke.unity
     guid: d33f04274259d12498f7caeaf3ff2484
   - enabled: 1
-    path: Assets/Scenes/23Datenschutz.unity
+    path: Assets/Scenes/MainScreen/23Datenschutz.unity
     guid: 2650a442bf80d1246b8b5d03e01411af
   - enabled: 1
-    path: Assets/Scenes/24MdM.unity
+    path: Assets/Scenes/MainScreen/24MdM.unity
     guid: a69ad1b3111824447a4b84dad6f962c1
   - enabled: 1
     path: Assets/Scenes/Spielemodus/25Richtig.unity
@@ -108,7 +108,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Spielemodus/MedaillenInfos/33MSchlafendeHaus.unity
     guid: 741e3d5d56a56194eba0e94047b95ec6
   - enabled: 1
-    path: Assets/Scenes/Spielemodus/MedaillenInfos/34.unity
+    path: Assets/Scenes/Spielemodus/MedaillenInfos/34MFlowers.unity
     guid: 452980c558948d94196b4790f4a3b7f6
   - enabled: 1
     path: Assets/Scenes/Spielemodus/MedaillenInfos/35.unity
@@ -116,10 +116,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Informationsmodus/36MinigameInfos.unity
     guid: 31b3e3fc705439643b6553db4ab7909f
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/Spielemodus/Kunstwerke/37MdMOben.unity
+    guid: 7ff2c1e1ca17441f5ad8f9c4c7b01679
+  - enabled: 1
+    path: Assets/Scenes/Spielemodus/Kunstwerke/38InAndOut.unity
+    guid: b4b1b9cde355d4b0f962cc5d58438bd4
+  - enabled: 1
+    path: Assets/Scenes/Spielemodus/Kunstwerke/39DrugsAndLiqour.unity
+    guid: 99717c2b2c4894273b7af5cde42e5bcc
   m_configObjects: {}

@@ -960,7 +960,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Made by WHO
+  m_Text: Made by ...
 --- !u!222 &913552218
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2281,7 +2281,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Drugs and Liqour
+  m_Text: Das schlafende Haus
 --- !u!222 &2099752811
 CanvasRenderer:
   m_ObjectHideFlags: 0
