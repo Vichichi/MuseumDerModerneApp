@@ -12,117 +12,165 @@ EditorBuildSettings:
     path: Assets/Scenes/MainScreen/01Info_Spiele.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
-    path: Assets/Scenes/Informationsmodus/02Infomodus.unity
-    guid: 467e8e733e9f5724da49d2cbfe9e9f41
-  - enabled: 1
-    path: Assets/Scenes/Spielemodus/03Location.unity
-    guid: d7ba9a9e6b274f84680d0f9b19e1f3e0
-  - enabled: 1
-    path: Assets/Scenes/Informationsmodus/04Hilfe.unity
-    guid: ac3ff8b9b8d50d64185676d38345e1a9
-  - enabled: 1
-    path: Assets/Scenes/Informationsmodus/05Bild und Infos.unity
-    guid: a08b915771692b64b97b5c87d6717a44
-  - enabled: 1
-    path: Assets/Scenes/Spielemodus/06Erklaerscreen.unity
-    guid: eb79c3d393a8e0647b5ee1975f02d271
-  - enabled: 1
-    path: Assets/Scenes/Spielemodus/07Spielmodus.unity
-    guid: 9fdddd8bb04a8924fafc438098e3443a
-  - enabled: 1
-    path: Assets/Scenes/Spielemodus/08Spielemodus2.0.unity
-    guid: f939b1dad059ff34186de79d16bac82d
-  - enabled: 1
-    path: Assets/Scenes/Spielemodus/09Medaillenhalle.unity
-    guid: fedab8d5cd7ef074595dc46e0119d245
-  - enabled: 1
-    path: Assets/Scenes/Spielemodus/10HilfeSpiele.unity
-    guid: 9c78f0fe8868aa9428965eafa60df232
-  - enabled: 1
-    path: Assets/Scenes/Spielemodus/11Minigames.unity
-    guid: 258b87c9a684efe45a6f615c55f25fda
-  - enabled: 1
-    path: Assets/Scenes/Informationsmodus/InfoMedaillen/12Gurken.unity
-    guid: 0f5ef9a0bbe48994288302c7e54b0fe1
-  - enabled: 1
-    path: Assets/Scenes/Informationsmodus/InfoMedaillen/13Zungenbaerte.unity
-    guid: f91efc51918e82048a850a73c29c0447
-  - enabled: 1
-    path: Assets/Scenes/Informationsmodus/InfoMedaillen/14Bestiarium.unity
-    guid: edcc43bdf336a394ebc57ef385fafd3e
-  - enabled: 1
-    path: Assets/Scenes/Informationsmodus/InfoMedaillen/15AEIOU.unity
-    guid: a46ec81b63e40d0409506394b20f1e84
-  - enabled: 1
-    path: Assets/Scenes/Informationsmodus/InfoMedaillen/16MdMEingang.unity
-    guid: 17a428a88685e7c48a44d3317b5e91f5
-  - enabled: 1
-    path: Assets/Scenes/Informationsmodus/InfoMedaillen/17DrugsAndLiquer.unity
-    guid: b069a405d3ece6648bcfc9e1310f0e60
-  - enabled: 1
-    path: Assets/Scenes/Informationsmodus/InfoMedaillen/18SchlafendeHaus.unity
-    guid: bd1b2fc70ad733b4f8c1bcd5d1c1525f
-  - enabled: 1
-    path: Assets/Scenes/Informationsmodus/InfoMedaillen/19Flowers.unity
-    guid: ec92860aedbe8cc4498ca7316440f676
-  - enabled: 1
-    path: Assets/Scenes/Informationsmodus/InfoMedaillen/20.unity
-    guid: 4b3b9925011f92c41a50f9f5e86ef7e3
-  - enabled: 1
-    path: Assets/Scenes/MainScreen/21Imprezive.unity
+    path: Assets/Scenes/MainScreen/02Impressum.unity
     guid: 825a7896b49e54a4b86bea77781e34ee
   - enabled: 1
-    path: Assets/Scenes/MainScreen/22Hintergrundgedanke.unity
+    path: Assets/Scenes/MainScreen/03Hintergrundgedanke.unity
     guid: d33f04274259d12498f7caeaf3ff2484
   - enabled: 1
-    path: Assets/Scenes/MainScreen/23Datenschutz.unity
+    path: Assets/Scenes/MainScreen/04Datenschutz.unity
     guid: 2650a442bf80d1246b8b5d03e01411af
   - enabled: 1
-    path: Assets/Scenes/MainScreen/24MdM.unity
+    path: Assets/Scenes/MainScreen/05MdMInfo.unity
     guid: a69ad1b3111824447a4b84dad6f962c1
   - enabled: 1
-    path: Assets/Scenes/Spielemodus/25Richtig.unity
+    path: Assets/Scenes/Informationsmodus/06Infomodus.unity
+    guid: 467e8e733e9f5724da49d2cbfe9e9f41
+  - enabled: 1
+    path: Assets/Scenes/Informationsmodus/07HilfeInfomodus.unity
+    guid: ac3ff8b9b8d50d64185676d38345e1a9
+  - enabled: 1
+    path: Assets/Scenes/Informationsmodus/InfoKunstwerke/08Gurken.unity
+    guid: 0f5ef9a0bbe48994288302c7e54b0fe1
+  - enabled: 1
+    path: Assets/Scenes/Informationsmodus/InfoKunstwerke/09Zungenbaerte.unity
+    guid: f91efc51918e82048a850a73c29c0447
+  - enabled: 1
+    path: Assets/Scenes/Informationsmodus/InfoKunstwerke/10Bestiarium.unity
+    guid: edcc43bdf336a394ebc57ef385fafd3e
+  - enabled: 1
+    path: Assets/Scenes/Informationsmodus/InfoKunstwerke/11AEIOU.unity
+    guid: a46ec81b63e40d0409506394b20f1e84
+  - enabled: 1
+    path: Assets/Scenes/Informationsmodus/InfoKunstwerke/12SarahMorris.unity
+    guid: 17a428a88685e7c48a44d3317b5e91f5
+  - enabled: 1
+    path: Assets/Scenes/Informationsmodus/InfoKunstwerke/13DrugsAndLiquor.unity
+    guid: b069a405d3ece6648bcfc9e1310f0e60
+  - enabled: 1
+    path: Assets/Scenes/Informationsmodus/InfoKunstwerke/14SchlafendeHaus.unity
+    guid: bd1b2fc70ad733b4f8c1bcd5d1c1525f
+  - enabled: 1
+    path: Assets/Scenes/Informationsmodus/InfoKunstwerke/15Flowers.unity
+    guid: ec92860aedbe8cc4498ca7316440f676
+  - enabled: 1
+    path: Assets/Scenes/Informationsmodus/InfoKunstwerke/16Gedankenexperiment.unity
+    guid: 4b3b9925011f92c41a50f9f5e86ef7e3
+  - enabled: 1
+    path: Assets/Scenes/Informationsmodus/InfoKunstwerke/17Nannucci.unity
+    guid: 1d72ea7dd0a3c9347ab4af010e9e788c
+  - enabled: 1
+    path: Assets/Scenes/Informationsmodus/InfoKunstwerke/18EvaSchlegel.unity
+    guid: 8501d32c6ceac4b4eb7bf1539d4b6e51
+  - enabled: 1
+    path: Assets/Scenes/Informationsmodus/InfoKunstwerke/19SkySpace.unity
+    guid: aab8f4233663c914baa547050dcd9c16
+  - enabled: 1
+    path: Assets/Scenes/Informationsmodus/InfoKunstwerke/20InsideAndOut.unity
+    guid: 985dd74c4e019594cbd261143cd443d9
+  - enabled: 1
+    path: Assets/Scenes/Informationsmodus/InfoKunstwerke/21ZiffernImWald.unity
+    guid: 9a74326b939a01848be340c5c9db25a0
+  - enabled: 1
+    path: Assets/Scenes/Minigames/Kusntwerke/22MiniGurken.unity
+    guid: c162ed73700158e4db27fc204c403aff
+  - enabled: 1
+    path: Assets/Scenes/Minigames/Kusntwerke/23MiniZungebaerte.unity
+    guid: 71473a73b268bd94ab7a5ed52f23937e
+  - enabled: 1
+    path: Assets/Scenes/Minigames/Kusntwerke/24MiniBestiarium.unity
+    guid: fd18034a3d50e6a458523df4d5af635a
+  - enabled: 1
+    path: Assets/Scenes/Minigames/Kusntwerke/25MiniAEIOU.unity
+    guid: df809d60014f7934fb8acdc133c83ebb
+  - enabled: 1
+    path: Assets/Scenes/Minigames/Kusntwerke/26MiniSarahMorris.unity
+    guid: f6f90f5f5eabf0044a3194aac89f0188
+  - enabled: 1
+    path: Assets/Scenes/Minigames/Kusntwerke/27MiniDrugs.unity
+    guid: 06e8d9c7649e2794a97ff17d36c533ba
+  - enabled: 1
+    path: Assets/Scenes/Minigames/Kusntwerke/28MiniSchlafendesHaus.unity
+    guid: 3e70dbd05a5ae1b4a949f8ebf113e3b7
+  - enabled: 1
+    path: Assets/Scenes/Minigames/Kusntwerke/29MiniFlowers.unity
+    guid: 8b4c53ed81cf76440b1fc7dad1ee9696
+  - enabled: 1
+    path: Assets/Scenes/Minigames/Kusntwerke/30MiniGedankenexperiment.unity
+    guid: f14e20fcfcad2d94f8b76670eaefc010
+  - enabled: 1
+    path: Assets/Scenes/Minigames/Kusntwerke/31MiniNannucci.unity
+    guid: 1d9c260fe164b8e4ca03082de364f851
+  - enabled: 1
+    path: Assets/Scenes/Minigames/Kusntwerke/32MiniEvaSchlegel.unity
+    guid: 60e341a92c54e8a42a0aeadcfa7ca9b8
+  - enabled: 1
+    path: Assets/Scenes/Minigames/Kusntwerke/33MiniSkySpace.unity
+    guid: d60dc17146629434a8be1d0605bc1efc
+  - enabled: 1
+    path: Assets/Scenes/Minigames/Kusntwerke/34MiniInsideOut.unity
+    guid: b595fcb541412e24c98a6c9f90212370
+  - enabled: 1
+    path: Assets/Scenes/Minigames/Kusntwerke/35MiniZiffernImWald.unity
+    guid: 28ac70cfaddb35f4b850dda55079871f
+  - enabled: 1
+    path: Assets/Scenes/Minigames/36Richtig.unity
     guid: 3e858d6c5c5d6144cb193f351045a1c7
   - enabled: 1
-    path: Assets/Scenes/Spielemodus/26Falsch.unity
+    path: Assets/Scenes/Minigames/37Falsch.unity
     guid: 832cdaa58c13ab047abb4ef2571780f7
   - enabled: 1
-    path: Assets/Scenes/Spielemodus/MedaillenInfos/27MGurken.unity
+    path: Assets/Scenes/Spielemodus/38Medaillenhalle.unity
+    guid: fedab8d5cd7ef074595dc46e0119d245
+  - enabled: 1
+    path: Assets/Scenes/Spielemodus/MedaillenInfos/39MGurken.unity
     guid: afc288cfa0953f0488de9ae529859d39
   - enabled: 1
-    path: Assets/Scenes/Spielemodus/MedaillenInfos/28MZungenbaerte.unity
-    guid: 7801ded8a8f6a6e468c0866e029004f2
-  - enabled: 1
-    path: Assets/Scenes/Spielemodus/MedaillenInfos/29MBestiarium.unity
+    path: Assets/Scenes/Spielemodus/MedaillenInfos/40MBestiarium.unity
     guid: fde7eea46f27fa9438f7429b077ef6ea
   - enabled: 1
-    path: Assets/Scenes/Spielemodus/MedaillenInfos/30MAEIOU.unity
+    path: Assets/Scenes/Spielemodus/MedaillenInfos/41MZungenbaerte.unity
+    guid: 7801ded8a8f6a6e468c0866e029004f2
+  - enabled: 1
+    path: Assets/Scenes/Spielemodus/MedaillenInfos/42MAEIOU.unity
     guid: 5902c463071b6de4c8a0adf55de6378b
   - enabled: 1
-    path: Assets/Scenes/Spielemodus/MedaillenInfos/31MEingangMdM.unity
+    path: Assets/Scenes/Spielemodus/MedaillenInfos/43SarahMorris.unity
     guid: 5c1742ad2092d104383a41c1c17914ce
   - enabled: 1
-    path: Assets/Scenes/Spielemodus/MedaillenInfos/32MDrugsAndLiquer.unity
+    path: Assets/Scenes/Spielemodus/MedaillenInfos/44MDrugsAndLiquer.unity
     guid: a9dce4ad9b6d3c14ab65f6c230b344d4
   - enabled: 1
-    path: Assets/Scenes/Spielemodus/MedaillenInfos/33MSchlafendeHaus.unity
+    path: Assets/Scenes/Spielemodus/MedaillenInfos/45MSchlafendeHaus.unity
     guid: 741e3d5d56a56194eba0e94047b95ec6
   - enabled: 1
-    path: Assets/Scenes/Spielemodus/MedaillenInfos/34MFlowers.unity
+    path: Assets/Scenes/Spielemodus/MedaillenInfos/46MFlowers.unity
     guid: 452980c558948d94196b4790f4a3b7f6
   - enabled: 1
-    path: Assets/Scenes/Spielemodus/MedaillenInfos/35.unity
-    guid: 33e814176bf78044b888b6133849abad
+    path: Assets/Scenes/Spielemodus/MedaillenInfos/47MGedankenexperiment.unity
+    guid: faf2265b6d082b5419a20e3f95512ee9
   - enabled: 1
-    path: Assets/Scenes/Informationsmodus/36MinigameInfos.unity
-    guid: 31b3e3fc705439643b6553db4ab7909f
+    path: Assets/Scenes/Spielemodus/MedaillenInfos/48MNannucci.unity
+    guid: c3a62c6bc937f5c498fde94addd8e6db
   - enabled: 1
-    path: Assets/Scenes/Spielemodus/Kunstwerke/37MdMOben.unity
-    guid: 7ff2c1e1ca17441f5ad8f9c4c7b01679
+    path: Assets/Scenes/Spielemodus/MedaillenInfos/49MEvaSchlegel.unity
+    guid: 9aea394cb6117ce459924ad6297d03b6
   - enabled: 1
-    path: Assets/Scenes/Spielemodus/Kunstwerke/38InAndOut.unity
-    guid: b4b1b9cde355d4b0f962cc5d58438bd4
+    path: Assets/Scenes/Spielemodus/MedaillenInfos/50MSkySpace.unity
+    guid: 7565c32dc52ab52419f2a2664136eb71
   - enabled: 1
-    path: Assets/Scenes/Spielemodus/Kunstwerke/39DrugsAndLiqour.unity
-    guid: 99717c2b2c4894273b7af5cde42e5bcc
+    path: Assets/Scenes/Spielemodus/MedaillenInfos/51MInsideOut.unity
+    guid: 4486ea808c340aa49912b6be2d152f94
+  - enabled: 1
+    path: Assets/Scenes/Spielemodus/MedaillenInfos/52MZiffernImWald.unity
+    guid: dcbec07cd5c4ec942bddb900fb9a040f
+  - enabled: 1
+    path: Assets/Scenes/Spielemodus/53Spielmodus.unity
+    guid: 9fdddd8bb04a8924fafc438098e3443a
+  - enabled: 1
+    path: Assets/Scenes/Spielemodus/54Spielemodus2.0.unity
+    guid: f939b1dad059ff34186de79d16bac82d
+  - enabled: 1
+    path: Assets/Scenes/Spielemodus/55HilfeSpiele.unity
+    guid: 9c78f0fe8868aa9428965eafa60df232
   m_configObjects: {}

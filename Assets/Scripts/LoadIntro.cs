@@ -11,7 +11,7 @@ public class LoadIntro : MonoBehaviour
    
     void Start()
     {
-        StartCoroutine(loadScene(7));
+        StartCoroutine(loadScene(5));
         StartCoroutine(FadeInObject());
     }
 

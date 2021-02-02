@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Spielemodus/25Richtig.unity
+- path: Assets/Scenes/Minigames/Kusntwerke/22MiniGurken.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
