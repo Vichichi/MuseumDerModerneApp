@@ -13,7 +13,6 @@ ScriptsOnlyBuild:
     - SwipeDrawer
     - SwipeLogger
     - SwitchScene
-    - ausblenden
     - fade
     Unity.CollabProxy.Editor.dll:
     - Unity.Cloud.Collaborate.UserInterface.CollaborateWindow
@@ -32,7 +31,6 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
     - UnityEngine.UI.Mask
-    - UnityEngine.UI.RawImage
     - UnityEngine.UI.RectMask2D
     - UnityEngine.UI.ScrollRect
     - UnityEngine.UI.Scrollbar
@@ -1014,8 +1012,6 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12484}
     - Class: 114
-      Script: {instanceID: 12976}
-    - Class: 114
       Script: {instanceID: 13488}
     - Class: 114
       Script: {instanceID: 13884}
@@ -1167,8 +1163,6 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11786}
     - Class: 114
-      Script: {instanceID: 11812}
-    - Class: 114
       Script: {instanceID: 11998}
     - Class: 114
       Script: {instanceID: 12038}
@@ -1181,7 +1175,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12712}
     - Class: 114
+      Script: {instanceID: 13118}
+    - Class: 114
       Script: {instanceID: 13488}
+    - Class: 114
+      Script: {instanceID: 13708}
     - Class: 114
       Script: {instanceID: 13884}
     - Class: 115
@@ -2183,8 +2181,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 13172}
     - Class: 114
       Script: {instanceID: 13488}
-    - Class: 114
-      Script: {instanceID: 13500}
     - Class: 114
       Script: {instanceID: 13524}
     - Class: 114
