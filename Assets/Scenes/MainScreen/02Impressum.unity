@@ -153,7 +153,7 @@ RectTransform:
   - {fileID: 1394400099}
   - {fileID: 1573407386}
   m_Father: {fileID: 1036673612}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -356,12 +356,12 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1036673612}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 110.91, y: -191.31}
-  m_SizeDelta: {x: 113.42374, y: 113.42505}
+  m_AnchoredPosition: {x: 128.3, y: -167.1}
+  m_SizeDelta: {x: 49, y: 81}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &252607361
 MonoBehaviour:
@@ -438,7 +438,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 070e66ab2dd50384a8cfaa32d091a602, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9f9b054776b0a8c448c46d6c2d1bd9d7, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -490,8 +490,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.0014648438, y: 1.3638916}
-  m_SizeDelta: {x: 745.94324, y: 2551.4448}
+  m_AnchoredPosition: {x: 2.9345703, y: 2.7226562}
+  m_SizeDelta: {x: 894.5078, y: 6547.5537}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &374766292
 MonoBehaviour:
@@ -526,29 +526,70 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-    eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-    At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
-    no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
-    amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
-    labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam
-    et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
-    sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
-    sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
-    magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
-    et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum
-    dolor sit amet.   \r\n\r\nDuis autem vel eum iriure dolor in hendrerit in vulputate
-    velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at
-    vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril
-    delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet,
-    consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
-    dolore magna aliquam erat volutpat.   \r\n\r\nUt wisi enim ad minim veniam, quis
-    nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
-    consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
-    molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros
-    et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit
-    augue duis dolore te feugait nulla facilisi.   \r\n\r\nNam liber tempor cum soluta
-    nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer"
+  m_Text: "Impressum und AGB\r\nOffenlegung gem. \xA725 Mediengesetz\r\n\r\nMedieninhaber
+    und Betreiber\r\nMuseum der Moderne \u2013 Rupertinum Betriebsgesellschaft mbH\r\nM\xF6nchsberg
+    32, 5020 Salzburg\r\nT +43 (0)662 842220\r\nF +43 (0)662 842220 700\r\nE-Mail:
+    info@mdmsalzburg.at\r\nWeb: www.museumdermoderne.at\r\n\r\nMuseum der Moderne
+    \u2014 Rupertinum Betriebsgesellschaft mbH: Ein Unternehmen des Landes Salzburg\r\n\r\nUID-Nummer:
+    ATU57320919\r\nDVR-Nummer: 917763\r\nFN: 238645z\r\n\r\nRedaktion: Dr. Thorsten
+    Sadowsky, direktion@mdmsalzburg.at\r\nGestaltung Website: Ute Stadlbauer/Florian
+    Hulan, utestadlbauer.com\r\nTechnische Umsetzung: Martin Hummer\r\nLayout und
+    Gestaltung des Angebots insgesamt sowie seiner einzelnen Elemente sind urheberrechtlich
+    gesch\xFCtzt. Gleiches gilt auch f\xFCr die inhaltlichen Beitr\xE4ge. Weiterverwendung
+    und Vervielf\xE4ltigung sind nur zu privaten Zwecken gestattet, Ver\xE4nderungen
+    daran d\xFCrfen nicht vorgenommen werden.\r\n\r\nNutzungsbedingungen\r\n\r\n1.
+    Haftungsausschluss\r\nDie hier angebotenen Inhalte dienen der allgemeinen Information.
+    F\xFCr die Richtigkeit, Aktualit\xE4t, Vollst\xE4ndigkeit und Verf\xFCgbarkeit
+    der gebotenen Informationen/Services \xFCbernehmen wir keine Gew\xE4hrleistung/Haftung.
+    Sie k\xF6nnen keine umfassende rechtliche Beratung ersetzen. Wenn Sie eine besondere
+    Beratung ben\xF6tigen, wenden Sie sich bitte an eine Expertin bzw. einen Experten.\r\n\r\nVerweise
+    zu anderen Internetangeboten, wurden sorgf\xE4ltig ausgew\xE4hlt. Deren Inhalt,
+    Richtigkeit, Aktualit\xE4t, Vollst\xE4ndigkeit und Verf\xFCgbarkeit liegt aber
+    nicht in unserem Einflussbereich.\r\n\r\nWir \xFCbernehmen keine Gew\xE4hrleistung/Haftung
+    f\xFCr downloadbare Formulare, insbesondere nicht f\xFCr deren Aktualit\xE4t,
+    Eignung f\xFCr einen bestimmten Zweck und Virenfreiheit. Wir behalten uns das
+    Recht vor, jederzeit und ohne Vorank\xFCndigung hier angebotene Informationen/Services
+    zu \xE4ndern, erg\xE4nzen, l\xF6schen oder den Internetauftritt g\xE4nzlich oder
+    vor\xFCbergehend einzustellen.\r\n\r\nWir bem\xFChen uns, Probleme beim Abruf
+    der Informationen/Services aufgrund von St\xF6rungen oder Inkompatibilit\xE4ten
+    so gering wie m\xF6glich zu halten. Es ist allerdings nicht ausgeschlossen, dass
+    Daten und Angaben auf unserer Website nicht oder fehlerhaft angezeigt werden.
+    Wir \xFCbernehmen keine Haftung, dass unser Dienst nicht unterbrochen oder anderweitig
+    durch St\xF6rungen beeintr\xE4chtigt wird.\r\n\r\n2. Geistiges Eigentum\r\nS\xE4mtliche
+    Inhalte, das Layout sowie allf\xE4llige Ton- und Videosequenzen sind urheberrechtlich
+    gesch\xFCtzt. Alle Rechte daran bleiben der Rechteinhaberin bzw. dem Rechteinhaber
+    vorbehalten. \xC4nderungen d\xFCrfen nicht vorgenommen werden. Eine \xF6ffentliche
+    Verwendung der Informationen/Services darf nur mit unserer Zustimmung und unter
+    Nennung sowie Ersichtlichmachung der Quelle erfolgen. Das blo\xDFe Verlinken
+    auf unsere Inhalte unter gleichzeitigem Quellhinweis steht jedermann frei und
+    bedarf keiner besonderen Genehmigung.\r\n\r\n3. Schlussbestimmungen\r\nAuf die
+    Nutzung der Informationen/Services findet ausschlie\xDFlich \xF6sterreichisches
+    Recht Anwendung.\r\n\r\nSofern Teile oder einzelne Formulierungen dieses Textes
+    der geltenden Rechtslage nicht, nicht mehr oder nicht vollst\xE4ndig entsprechen
+    sollten, bleiben die \xFCbrigen Teile in ihrem Inhalt und ihrer G\xFCltigkeit
+    davon unber\xFChrt. Anstelle einer unwirksamen Bestimmung oder zum Auff\xFCllen
+    einer L\xFCcke kommt eine angemessene, rechtliche zul\xE4ssige Regelung zur Anwendung,
+    die dem am n\xE4chsten kommt, was nach Sinn und Zweck dieser Nutzungsbedingungen
+    bei Kenntnis der Teilnichtigkeit oder L\xFCcke gewollt gewesen w\xE4re.\r\n\r\n4.
+    Google Analytics\r\nDiese Website benutzt Google Analytics, einen Webanalysedienst
+    der Google Inc. (\"Google\"). Google Analytics verwendet sog. \"Cookies\", Textdateien,
+    die auf Ihrem Computer gespeichert werden und die eine Analyse der Benutzung
+    der Website durch Sie erm\xF6glicht. Die durch den Cookie erzeugten Informationen
+    \xFCber Ihre Benutzung diese Website (einschlie\xDFlich Ihrer IP-Adresse) wird
+    an einen Server der Google in den USA \xFCbertragen und dort gespeichert. Google
+    wird diese Informationen benutzen, um Ihre Nutzung der Website auszuwerten, um
+    Reports \xFCber die Websiteaktivit\xE4ten f\xFCr die Websitebetreiber zusammenzustellen
+    und um weitere mit der Websitenutzung und der Internetnutzung verbundene Dienstleistungen
+    zu erbringen. Auch wird Google diese Informationen gegebenenfalls an Dritte \xFCbertragen,
+    sofern dies gesetzlich vorgeschrieben oder soweit Dritte diese Daten im Auftrag
+    von Google verarbeiten. Google wird in keinem Fall Ihre IP-Adresse mit anderen
+    Daten der Google in Verbindung bringen. Sie k\xF6nnen die Installation der Cookies
+    durch eine entsprechende Einstellung Ihrer Browser Software verhindern; wir weisen
+    Sie jedoch darauf hin, dass Sie in diesem Fall gegebenenfalls nicht s\xE4mtliche
+    Funktionen dieser Website voll umf\xE4nglich nutzen k\xF6nnen. Durch die Nutzung
+    dieser Website erkl\xE4ren Sie sich mit der Bearbeitung der \xFCber Sie erhobenen
+    Daten durch Google in der zuvor beschriebenen Art und Weise und zu dem zuvor
+    benannten Zweck einverstanden."
 --- !u!222 &374766293
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -705,7 +746,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1057996230}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.2547004
+  m_Size: 0.22432476
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -779,7 +820,7 @@ RectTransform:
   - {fileID: 696195100}
   - {fileID: 781678057}
   m_Father: {fileID: 1036673612}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
@@ -1035,6 +1076,7 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 1532260932}
+  - {fileID: 2038424889}
   - {fileID: 653504180}
   - {fileID: 64481083}
   - {fileID: 252607360}
@@ -1155,7 +1197,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: -0.0000061823366}
-  m_SizeDelta: {x: 0, y: 2548.717}
+  m_SizeDelta: {x: 17.376953, y: 6552.999}
   m_Pivot: {x: 0, y: 1}
 --- !u!1 &1394400098
 GameObject:
@@ -1189,10 +1231,10 @@ RectTransform:
   m_Father: {fileID: 64481083}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -210.2, y: 398}
-  m_SizeDelta: {x: 317.26892, y: 60.029358}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -248.59998, y: -340.3001}
+  m_SizeDelta: {x: -677.2054, y: 80.20361}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1394400100
 MonoBehaviour:
@@ -1216,11 +1258,11 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: f300936e11450214495c8dbc1f520ad2, type: 3}
-    m_FontSize: 50
+    m_FontSize: 65
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 4
-    m_MaxSize: 50
+    m_MinSize: 0
+    m_MaxSize: 75
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -1438,10 +1480,10 @@ RectTransform:
   m_Father: {fileID: 64481083}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000012398, y: -110}
-  m_SizeDelta: {x: 762.94617, y: 649.15924}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: 0, y: 735}
+  m_SizeDelta: {x: -180, y: 1470}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1573407387
 MonoBehaviour:
@@ -1554,6 +1596,81 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2038424888
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2038424889}
+  - component: {fileID: 2038424891}
+  - component: {fileID: 2038424890}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &2038424889
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2038424888}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1036673612}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 1080, y: 1920}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2038424890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2038424888}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 2c228d985dfd212409817ef7eb882736, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &2038424891
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2038424888}
+  m_CullTransparentMesh: 0
 --- !u!1 &2039926538
 GameObject:
   m_ObjectHideFlags: 0

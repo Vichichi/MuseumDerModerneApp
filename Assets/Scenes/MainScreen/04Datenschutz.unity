@@ -297,6 +297,7 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 1572404355}
+  - {fileID: 820589919}
   - {fileID: 1638187055}
   - {fileID: 650917287}
   - {fileID: 1899057709}
@@ -413,7 +414,7 @@ RectTransform:
   - {fileID: 1717124978}
   - {fileID: 1620572864}
   m_Father: {fileID: 164818308}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -512,6 +513,81 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &820589918
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 820589919}
+  - component: {fileID: 820589921}
+  - component: {fileID: 820589920}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &820589919
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 820589918}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 164818308}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &820589920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 820589918}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 2c228d985dfd212409817ef7eb882736, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &820589921
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 820589918}
+  m_CullTransparentMesh: 0
 --- !u!1 &1122860731
 GameObject:
   m_ObjectHideFlags: 0
@@ -569,7 +645,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 0}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -663,8 +739,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -0.0000061823366}
-  m_SizeDelta: {x: 0, y: 2548.717}
+  m_AnchoredPosition: {x: 4.14, y: -0.00015930453}
+  m_SizeDelta: {x: 11.957153, y: 6414.717}
   m_Pivot: {x: 0, y: 1}
 --- !u!1 &1377303028
 GameObject:
@@ -945,10 +1021,10 @@ RectTransform:
   m_Father: {fileID: 650917287}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000012398, y: -110}
-  m_SizeDelta: {x: 762.94617, y: 649.15924}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: 10.179993, y: 737}
+  m_SizeDelta: {x: -179.24158, y: 1461.5466}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1620572865
 MonoBehaviour:
@@ -1049,7 +1125,7 @@ RectTransform:
   - {fileID: 1391067912}
   - {fileID: 1740540730}
   m_Father: {fileID: 164818308}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
@@ -1104,7 +1180,7 @@ GameObject:
   - component: {fileID: 1717124980}
   - component: {fileID: 1717124979}
   m_Layer: 5
-  m_Name: Hintergrundgedanke
+  m_Name: Datenschutz
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1124,10 +1200,10 @@ RectTransform:
   m_Father: {fileID: 650917287}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -210.2, y: 398}
-  m_SizeDelta: {x: 317.26892, y: 60.029358}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -242.09998, y: -344.59998}
+  m_SizeDelta: {x: -675.52057, y: 82.39111}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1717124979
 MonoBehaviour:
@@ -1151,11 +1227,11 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: f300936e11450214495c8dbc1f520ad2, type: 3}
-    m_FontSize: 50
+    m_FontSize: 65
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 4
-    m_MaxSize: 50
+    m_MaxSize: 65
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -1284,8 +1360,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.0014648438, y: 1.3638916}
-  m_SizeDelta: {x: 745.94324, y: 2551.4448}
+  m_AnchoredPosition: {x: -3.1082153, y: 20.425}
+  m_SizeDelta: {x: 901.932, y: 6373.8667}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1805954160
 MonoBehaviour:
@@ -1320,29 +1396,68 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-    eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-    At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
-    no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
-    amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
-    labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam
-    et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
-    sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
-    sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
-    magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
-    et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum
-    dolor sit amet.   \r\n\r\nDuis autem vel eum iriure dolor in hendrerit in vulputate
-    velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at
-    vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril
-    delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet,
-    consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
-    dolore magna aliquam erat volutpat.   \r\n\r\nUt wisi enim ad minim veniam, quis
-    nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
-    consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
-    molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros
-    et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit
-    augue duis dolore te feugait nulla facilisi.   \r\n\r\nNam liber tempor cum soluta
-    nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer"
+  m_Text: "Datenschutz\r\n1. Erhebung, Verarbeitung und Nutzung Ihrer Daten\r\nSie
+    k\xF6nnen unsere Website besuchen und nutzen, ohne pers\xF6nliche Angaben machen
+    zu m\xFCssen. W\xE4hrend Ihres Besuchs bleiben Sie anonym, denn uns ist es zu
+    keinem Zeitpunkt m\xF6glich, Sie zu identifizieren, es sei denn, Sie geben im
+    Zuge der Bestellung eines oder mehrerer Newsletter bzw. unseres Monatsprogramms
+    ihre Daten freiwillig an.\r\n\r\nDer Schutz Ihrer personenbezogenen Daten ist
+    uns sehr wichtig. Soweit wir Ihre pers\xF6nlichen Daten verwenden, halten wir
+    uns streng an die gesetzlichen Bestimmungen des Datenschutzgesetzes und des Telemediendatenschutzgesetzes.\r\n\r\nDiese
+    pers\xF6nlichen Angaben k\xF6nnen umfassen:\r\nTitel/Akademischer Grad\r\nVor-
+    und Nachname\r\nAdresse\r\nE-Mail-Adresse\r\nTelefonnummer\r\nGeburtsdatum\r\nFirmendaten\r\n\r\nIhre
+    personenbezogenen Daten verwenden wir ausschlie\xDFlich f\xFCr die Zusendung
+    der von Ihnen bestellten Medien oder zur Beantwortung der von Ihnen an uns gestellten
+    Fragen. Bei der Newsletter- bzw. Monatsprogramm-Bestellung werden die von Ihnen
+    angegebenen pers\xF6nlichen Daten gespeichert und Sie stimmen im Zuge der Erstellung
+    bis auf Widerruf der Verwendung Ihrer Daten entsprechend dieser Datenschutzerkl\xE4rung
+    zu.\r\n\r\nHaben Sie sich f\xFCr den Newsletter angemeldet, wird Ihre E-Mail
+    Adresse ausschlie\xDFlich von der Museum der Moderne \u2013 Rupertinum Betriebsgesellschaft
+    mbH genutzt, um Sie \xFCber aktuelle Ausstellungen und Veranstaltungen zu informieren.
+    Sie haben jederzeit die M\xF6glichkeit sich wieder abzumelden.\r\n\r\n2. Weitergabe
+    personenbezogener Daten\r\nIhre pers\xF6nlichen Daten werden von uns grunds\xE4tzlich
+    nicht an Dritte weitergegeben.\r\n\r\n3. Anonyme Nutzung der Benutzerdaten\r\nDiese
+    Website benutzt Google Analytics, einen Webanalysedienst der Google Inc. (\"Google\").
+    Google Analytics verwendet sog. \"Cookies\", Textdateien, die auf Ihrem Computer
+    gespeichert werden und die eine Analyse der Benutzung der Website durch Sie erm\xF6glichen.
+    Die durch den Cookie erzeugten Informationen \xFCber Ihre Benutzung dieser Website
+    (einschlie\xDFlich Ihrer IP-Adresse) werden an einen Server von Google in den
+    USA \xFCbertragen und dort gespeichert. Die meisten der von uns verwendeten Cookies
+    werden nach dem Ende der Browser-Sitzung wieder von Ihrer Festplatte gel\xF6scht
+    (sog. Sitzungscookies). Andere Cookies verbleiben auf Ihrem Rechner und erm\xF6glichen
+    es uns, Ihren Rechner bei Ihrem n\xE4chsten Besuch wiederzuerkennen (sog. dauerhafte
+    Cookies).\r\n\r\nUnseren Partnerunternehmen ist es nicht gestattet, \xFCber unsere
+    Website personenbezogene Daten mittels Cookies zu erheben, zu verarbeiten oder
+    zu nutzen. Google wird diese Informationen benutzen, um Ihre Nutzung der Website
+    auszuwerten, um Reports \xFCber die Websiteaktivit\xE4ten f\xFCr die Websitebetreiber
+    zusammenzustellen und um weitere mit der Websitenutzung und der Internetnutzung
+    verbundene Dienstleistungen zu erbringen. Auch wird Google diese Informationen
+    gegebenenfalls an Dritte \xFCbertragen, sofern dies gesetzlich vorgeschrieben
+    oder soweit Dritte diese Daten im Auftrag von Google verarbeiten.\r\n\r\nGoogle
+    wird in keinem Fall Ihre IP-Adresse mit anderen Daten von Google in Verbindung
+    bringen. Sie k\xF6nnen die Installation der Cookies durch eine entsprechende
+    Einstellung Ihrer Browser-Software verhindern; wir weisen Sie jedoch darauf hin,
+    dass Sie in diesem Fall gegebenenfalls nicht s\xE4mtliche Funktionen dieser Website
+    vollumf\xE4nglich nutzen k\xF6nnen. Durch die Nutzung dieser Website erkl\xE4ren
+    Sie sich mit der Bearbeitung der \xFCber Sie erhobenen Daten durch Google in
+    der zuvor beschriebenen Art und Weise und zu dem zuvor benannten Zweck einverstanden.\r\n\r\n4.
+    Widerruf von Einwilligungen\r\nDie nachstehende Einwilligung haben Sie ausdr\xFCcklich
+    erteilt. Wir m\xF6chten Sie darauf hinweisen, dass Sie Ihre Einwilligung jederzeit
+    widerrufen bzw. sich vom Newsletter/dem Bezug des Monatsprogramms abmelden k\xF6nnen.\r\n\r\nErlaubnis
+    zur E-Mail-Werbung:\r\nIch m\xF6chte regelm\xE4\xDFig interessante Angebote per
+    E-Mail erhalten. Meine E-Mail Adresse wird nicht an andere Unternehmen f\xFCr
+    Werbezwecke weitergegeben. Diese Einwilligung zur Nutzung meiner E-Mail Adresse
+    f\xFCr Werbezwecke kann ich jederzeit mit Wirkung f\xFCr die Zukunft widerrufen,
+    indem ich den Link \u201EAbmelden\u201C am Ende des Newsletters anklicke.\r\n\r\n5.
+    Auskunft \xFCber Ihre Daten\r\nNach Ma\xDFgabe der \xA7\xA7 34, 35 des Datenschutzgesetzes
+    haben Sie uns gegen\xFCber einen Anspruch auf unentgeltliche Auskunft \xFCber
+    Ihre gespeicherten Daten, \xFCber den Zweck der Speicherung sowie einen Anspruch
+    auf Berichtigung unrichtiger Daten und auf L\xF6schung von f\xFCr die Erf\xFCllung
+    des Zwecks der Speicherung nicht mehr erforderlichen Daten, sofern keine gesetzliche
+    Aufbewahrungspflicht besteht. Sie k\xF6nnen uns jederzeit durch Zusendung einer
+    E-Mail an die Adresse info@mdmsalzburg.at oder postalisch an die Adresse Museum
+    der Moderne \u2013 Rupertinum Betriebsgesellschaft mbH, M\xF6nchsberg 32, 5020
+    Salzburg, erreichen."
 --- !u!222 &1805954161
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1433,7 +1548,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1122860732}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.2547004
+  m_Size: 0.22784273
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -1458,7 +1573,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 0}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1507,12 +1622,12 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 164818308}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 110.91, y: -191.31}
-  m_SizeDelta: {x: 113.42374, y: 113.42505}
+  m_AnchoredPosition: {x: 128, y: -168}
+  m_SizeDelta: {x: 49, y: 81}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1899057710
 MonoBehaviour:
@@ -1589,7 +1704,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 070e66ab2dd50384a8cfaa32d091a602, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9f9b054776b0a8c448c46d6c2d1bd9d7, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

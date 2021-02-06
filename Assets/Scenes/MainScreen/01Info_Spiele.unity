@@ -476,7 +476,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2016252352}
         m_TargetAssemblyTypeName: SwitchScene, Assembly-CSharp
-        m_MethodName: Location
+        m_MethodName: Spielmodus
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
