@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Spielemodus/38Medaillenhalle.unity
+- path: Assets/Scenes/Informationsmodus/06Infomodus.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
