@@ -152,10 +152,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74d2a19d7686246be86988d6f5446067, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Kunstwerk1lat: 0
   OutputText: {fileID: 1746669152}
   LocationText: {fileID: 565555026}
+  DistanceText: {fileID: 1120304600}
   popUpAnfang: {fileID: 1967728008}
+  Bool1: 0
 --- !u!4 &47424860
 Transform:
   m_ObjectHideFlags: 0
@@ -976,8 +977,8 @@ MonoBehaviour:
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
+    m_HorizontalOverflow: 1
+    m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: 
 --- !u!1 &569383011
@@ -1568,7 +1569,7 @@ GameObject:
   - component: {fileID: 1120304601}
   - component: {fileID: 1120304600}
   m_Layer: 5
-  m_Name: gefunden
+  m_Name: distanceText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1623,10 +1624,10 @@ MonoBehaviour:
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
+    m_HorizontalOverflow: 1
+    m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: '0m '
+  m_Text: 350m
 --- !u!222 &1120304601
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1819,7 +1820,7 @@ GameObject:
   - component: {fileID: 1394557676}
   - component: {fileID: 1394557675}
   m_Layer: 5
-  m_Name: GefundenBuddon
+  m_Name: distanceButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1887,19 +1888,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1394557676}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1515073190}
-        m_TargetAssemblyTypeName: SwitchScene, Assembly-CSharp
-        m_MethodName: MiniDrugs
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1394557676
 MonoBehaviour:
   m_ObjectHideFlags: 0

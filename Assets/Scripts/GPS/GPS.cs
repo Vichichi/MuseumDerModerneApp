@@ -11,57 +11,19 @@ public class GPS : MonoBehaviour
     float longitude;
 
     //MDM : the gedankenexperiment, Department of Water and Power, “Luminance of color…”, Kwiaty (Blumen)
-    public float Kunstwerk1lat;
-    float Kunstwerk1long;
-
-    //Eingang MönchsbergAufzug Talstation,
-    float Kunstwerk2lat;
-    float Kunstwerk2long;
-
-    // Schlafendes Haus
-    float Kunstwerk3lat;
-    float Kunstwerk3long;
-
-    //Sky Space
-    float Kunstwerk4lat;
-    float Kunstwerk4long;
-
-    //inside of & outside of itself
-    float Kunstwerk5lat;
-    float Kunstwerk5long;
-
-    //Drugs / Liquor
-    float Kunstwerk6lat;
-    float Kunstwerk6long;
-
-    //Ziffern im Wald
-    float Kunstwerk7lat;
-    float Kunstwerk7long;
-
-    //Zungenbärte
-    float Kunstwerk8lat;
-    float Kunstwerk8long;
-
-    //Bestiarium
-    float Kunstwerk9lat;
-    float Kunstwerk9long;
-
-    //Gurken
-    float Kunstwerk10lat;
-    float Kunstwerk10long;
-
-    //A.E.I.O.U., 
-    float Kunstwerk11lat;
-    float Kunstwerk11long;
-
+    
+    float Kunstwerk1lat = 47.80094f;
+    float Kunstwerk1long = 13.03878f;
 
     public Text OutputText;
     public Text LocationText;
+    public Text DistanceText;
 
     public GameObject popUpAnfang;
+    public bool Bool1;
 
-    private int zuSzene1;
-    private int zuSzene2;
+   // private int zuSzene1;
+    //private int zuSzene2;
 
 
     //für den szenenwechsel
@@ -78,9 +40,74 @@ public class GPS : MonoBehaviour
 
         //popUp deaktiviert
         popUpAnfang.gameObject.SetActive(false);
+        Bool1 = false;
     }
 
+    public void Update(){
 
+        Distanz();
+        StartCoroutine(TestLocation());
+    }
+
+    public void Distanz()
+    {
+        //sozusagen Delta x und Delta y
+        float a = Kunstwerk1long- longitude;
+        float b = Kunstwerk1lat - latitude;
+    
+        //Satz des Pythagoras 
+        float c = a * a + b * b;
+
+        //Wurzel aus Ergebnis von oben
+        float d = Mathf.Sqrt(c);
+
+        //abs, damit man kein nagatives Ergebnis bekommt
+        float distanz = Mathf.Abs(d);
+
+        // DistanceText.text = "Strecke bis zum Ziel: " + distanz;
+
+
+        if (distanz < 0.004656978f)
+        {
+            Debug.Log("Hallo ich funktioniere");
+            DistanceText.text = "350m";
+        }
+        if (distanz < 0.003909071f)
+        {
+            DistanceText.text = "300m";
+        }
+        if (distanz < 0.002666071f)
+        {
+            DistanceText.text = "200m";
+        }
+
+        if (distanz < 0.001328243f)
+        {
+            DistanceText.text = "100m";
+        }
+
+        if (distanz < 0.001057976f)
+        {
+            DistanceText.text = "80m";
+        }
+
+        if (distanz < 0.0006635057f)
+        {
+            DistanceText.text = "50m";
+        }
+        if (distanz < 0.0003919137f)
+        {
+            DistanceText.text = "30m";
+        }
+        if (distanz < 0.0002512855f)
+        {
+            DistanceText.text = "20m";
+        }
+        if (distanz < 0.0001216673)
+        {
+            DistanceText.text = "10m";
+        }
+    }
 
     IEnumerator TestLocation()
     {
@@ -135,51 +162,6 @@ public class GPS : MonoBehaviour
                 yield return new WaitForSeconds(0);
 
 
-                //MdM
-                Kunstwerk1lat = 47.800942f;
-                Kunstwerk1long = 13.038788f;
-
-                //Eingang MönchsbergAufzug Talstation
-                Kunstwerk2lat = 47.800863f; 
-                Kunstwerk2long = 13.039024f;
-
-                //Schlafendes Haus
-                Kunstwerk3lat = 47.800543f; 
-                Kunstwerk3long = 13.038422f;
-
-                //Sky Space
-                Kunstwerk4lat = 47.800526f; 
-                Kunstwerk4long = 13.038494f;
-
-                //inside of & outside of itself
-                Kunstwerk5lat = 47.800705f; 
-                Kunstwerk5long = 13.038712f;
-
-                //Drugs / Liquor
-                Kunstwerk6lat = 47.800748f;
-                Kunstwerk6long = 13.038500f;
-
-                //Ziffern im Wald
-                Kunstwerk7lat = 47.801655f;
-                Kunstwerk7long = 13.038249f;
-
-                //Zungenbärte
-                Kunstwerk8lat = 47.798261f; 
-                Kunstwerk8long = 13.043276f;
-
-                //Bestiarium
-                Kunstwerk9lat = 47.798242f;
-                Kunstwerk9long = 13.043422f;
-
-                //Gurken
-                Kunstwerk10lat = 47.798772f; 
-                Kunstwerk10long = 13.042294f;
-
-                //A.E.I.O.U.
-                Kunstwerk11lat = 47.798541f; 
-                Kunstwerk11long = 13.042785f;
-
-
                 //popUp-Screen deaktiviert
                 popUpAnfang.gameObject.SetActive(false);
 
@@ -189,123 +171,15 @@ public class GPS : MonoBehaviour
                 {
                     popUpAnfang.gameObject.SetActive(true);
                     Handheld.Vibrate();
+                    Bool1 = true; 
                 }
                 else
                 {
-                    OutputText.text = "Keep searching!";
                     popUpAnfang.gameObject.SetActive(false);
+                    Bool1 = false; 
                 }
 
-                //Eingang
-                if (latitude < Kunstwerk2lat + 0.00008f && latitude > Kunstwerk2lat - 0.00008f && longitude < Kunstwerk2long + 0.00008f && longitude > Kunstwerk2long - 0.00008f)
-                {
-                    popUpAnfang.gameObject.SetActive(true);
-                }
-                else 
-                {
-                    OutputText.text = "Keep searching!";
-                    popUpAnfang.gameObject.SetActive(false);
-                }
-
-                //Schlafendes Haus
-                if (latitude < Kunstwerk3lat + 0.00008f && latitude > Kunstwerk3lat - 0.00008f && longitude < Kunstwerk3long + 0.00008f && longitude > Kunstwerk3long - 0.00008f)
-                {
-                    popUpAnfang.gameObject.SetActive(true);
-                }
-                else
-                {
-                    OutputText.text = "Keep searching!";
-                    popUpAnfang.gameObject.SetActive(false);
-                }
-
-                //Sky
-                if (latitude < Kunstwerk4lat + 0.00008f && latitude > Kunstwerk4lat - 0.00008f && longitude < Kunstwerk4long + 0.00008f && longitude > Kunstwerk4long - 0.00008f)
-                {
-                    popUpAnfang.gameObject.SetActive(true);
-                }
-                else
-                {
-                    OutputText.text = "Keep searching!";
-                    popUpAnfang.gameObject.SetActive(false);
-                }
-
-                //inside&outside
-                if (latitude < Kunstwerk5lat + 0.0001f && latitude > Kunstwerk5lat - 0.0001f && longitude < Kunstwerk5long + 0.0001f && longitude > Kunstwerk5long - 0.0001f)
-                {
-                    popUpAnfang.gameObject.SetActive(true);
-                }
-                else
-                {
-                    OutputText.text = "Keep searching!";
-                    popUpAnfang.gameObject.SetActive(false);
-                }
-
-                //drugs&liquor
-                if (latitude < Kunstwerk6lat + 0.00002f && latitude > Kunstwerk6lat - 0.00002f && longitude < Kunstwerk6long + 0.00002f && longitude > Kunstwerk6long - 0.00002f)
-                {
-                    popUpAnfang.gameObject.SetActive(true);
-                }
-                else
-                {
-                    OutputText.text = "Keep searching!";
-                    popUpAnfang.gameObject.SetActive(false);
-                }
-
-                //Ziffern im Wald
-                if (latitude < Kunstwerk7lat + 0.00002f && latitude > Kunstwerk7lat - 0.00002f && longitude < Kunstwerk7long + 0.00002f && longitude > Kunstwerk7long - 0.00002f)
-                {
-                    popUpAnfang.gameObject.SetActive(true);
-                }
-                else
-                {
-                    OutputText.text = "Keep searching!";
-                    popUpAnfang.gameObject.SetActive(false);
-                }
-
-                //Zungenbärte
-                if (latitude < Kunstwerk8lat + 0.0001f && latitude > Kunstwerk8lat - 0.0001f && longitude < Kunstwerk8long + 0.0001f && longitude > Kunstwerk8long - 0.0001f)
-                {
-                    popUpAnfang.gameObject.SetActive(true);
-                }
-                else
-                {
-                    OutputText.text = "Keep searching!";
-                    popUpAnfang.gameObject.SetActive(false);
-                }
-
-                //Bestarium
-                if (latitude < Kunstwerk9lat + 0.00009f && latitude > Kunstwerk9lat - 0.00009f && longitude < Kunstwerk9long + 0.00009f && longitude > Kunstwerk9long - 0.00009f)
-                {
-                    popUpAnfang.gameObject.SetActive(true);
-                }
-                else
-                {
-                    OutputText.text = "Keep searching!";
-                    popUpAnfang.gameObject.SetActive(false);
-                }
-
-                //Gurken
-                if (latitude < Kunstwerk10lat + 0.0001f && latitude > Kunstwerk10lat - 0.0001f && longitude < Kunstwerk10long + 0.0001f && longitude > Kunstwerk10long - 0.0001f)
-                {
-                    popUpAnfang.gameObject.SetActive(true);
-                }
-                else
-                {
-                    OutputText.text = "Keep searching!";
-                    popUpAnfang.gameObject.SetActive(false);
-                }
-
-                //AEIOU
-                if (latitude < Kunstwerk11lat + 0.00004f && latitude > Kunstwerk11lat - 0.00004f && longitude < Kunstwerk11long + 0.0001f && longitude > Kunstwerk11long - 0.0001f)
-                {
-                    popUpAnfang.gameObject.SetActive(true);
-                }
-                else
-                {
-                    OutputText.text = "Keep searching!";
-                    popUpAnfang.gameObject.SetActive(false);
-                }
-
+                
             }
         }
 
