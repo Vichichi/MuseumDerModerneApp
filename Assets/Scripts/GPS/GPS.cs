@@ -20,7 +20,8 @@ public class GPS : MonoBehaviour
     public Text DistanceText;
 
     public GameObject popUpAnfang;
-    public bool Bool1;
+
+    public GameObject counter;
 
    // private int zuSzene1;
     //private int zuSzene2;
@@ -40,7 +41,6 @@ public class GPS : MonoBehaviour
 
         //popUp deaktiviert
         popUpAnfang.gameObject.SetActive(false);
-        Bool1 = false;
     }
 
     public void Update(){
@@ -171,12 +171,11 @@ public class GPS : MonoBehaviour
                 {
                     popUpAnfang.gameObject.SetActive(true);
                     Handheld.Vibrate();
-                    Bool1 = true; 
+                    counter.GetComponent<counter>().kunstwerke = 1;
                 }
                 else
                 {
-                    popUpAnfang.gameObject.SetActive(false);
-                    Bool1 = false; 
+                    popUpAnfang.gameObject.SetActive(false); 
                 }
 
                 

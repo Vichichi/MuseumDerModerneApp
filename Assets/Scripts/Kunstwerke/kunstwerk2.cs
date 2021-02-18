@@ -21,6 +21,9 @@ public class kunstwerk2 : MonoBehaviour
     public Text DistanceText;
     public Text LocationText;
 
+    public GameObject counter;
+    
+
 
     public void SceneLoader(int sceneIndex)
     {
@@ -136,6 +139,7 @@ public class kunstwerk2 : MonoBehaviour
                 {
                     PopUp.gameObject.SetActive(true);
                     Handheld.Vibrate();
+                    counter.GetComponent<counter>().kunstwerke = 2;
                 }
                 else
                 {
