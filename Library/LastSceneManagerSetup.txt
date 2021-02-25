@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Informationsmodus/InfoKunstwerke/21ZiffernImWald.unity
+- path: Assets/Scenes/MainScreen/01Info_Spiele.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
